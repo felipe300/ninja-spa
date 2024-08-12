@@ -1,0 +1,13 @@
+doctype html
+html
+  head
+    title #{title}
+    link(rel='icon', sizes='16x16 32x32 48x48 64x64', href='/shuriken.png')
+    link(rel="stylesheet", href="/styles.css")
+    script(src="https://unpkg.com/htmx.org@1.9.12")
+  body
+    header
+      nav
+        img(src="/shuriken.png")
+        h1 The Dojo Chronicles
+    block content
